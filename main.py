@@ -152,7 +152,7 @@ class SoundAnalyzeGUI:
 
     def analyze_existing_data(self):
         try:
-            df = pd.read_csv("/Users/dhamaritrice-hanson/Downloads/Loudness-measuring-main-2/data/audio_records.csv")
+            df = pd.read_csv("/Loudness-measuring-main-2/data/audio_records.csv")
             while True:
                 print("\nSafe Sound Analysis:")
                 print("1. Basic Statistics")
